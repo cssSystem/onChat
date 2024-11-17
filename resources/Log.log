@@ -1,0 +1,13 @@
+INFO 2024-11-17 23:37:24 Сервер запущен...
+ServerTEXT 2024-11-17 23:37:29 Сокет Socket[addr=/127.0.0.1,port=51758,localport=9999] подключился
+ServerTEXT 2024-11-17 23:37:33 Сокет Socket[addr=/127.0.0.1,port=51766,localport=9999] подключился
+ServerTEXT 2024-11-17 23:37:38 Сокет Socket[addr=/127.0.0.1,port=51766,localport=9999] присвоено имя: hello
+ServerTEXT 2024-11-17 23:37:38 К чату подключился пользователь "hello"
+ServerTEXT 2024-11-17 23:37:42 Сокет Socket[addr=/127.0.0.1,port=51758,localport=9999] присвоено имя: rill
+ServerTEXT 2024-11-17 23:37:42 К чату подключился пользователь "rill"
+ClientTEXT 2024-11-17 23:37:45 rill: hi
+ClientTEXT 2024-11-17 23:37:49 hello: hi
+ServerTEXT 2024-11-17 23:37:54 hello отключился...
+ClientTEXT 2024-11-17 23:37:54 hello ушел погулять в оффлайн
+ServerTEXT 2024-11-17 23:38:06 rill отключился...
+ClientTEXT 2024-11-17 23:38:06 rill ушел погулять в оффлайн

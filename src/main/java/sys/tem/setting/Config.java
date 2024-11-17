@@ -1,4 +1,4 @@
-package sys.tem.Setting;
+package sys.tem.setting;
 
 import java.io.FileReader;
 import java.io.IOException;

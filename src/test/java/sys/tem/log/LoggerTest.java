@@ -1,4 +1,4 @@
-package sys.tem.Log;
+package sys.tem.log;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

@@ -1,16 +1,16 @@
-package sys.tem.Server;
+package sys.tem.server;
 
 import org.junit.jupiter.api.*;
-import sys.tem.Client.Client;
-import sys.tem.Log.Logger;
-import sys.tem.Setting.Config;
+import sys.tem.client.Client;
+import sys.tem.log.Logger;
+import sys.tem.setting.Config;
 
 public class ServerTest {
-    Server server = new Server(new Config("src/main/java/sys/tem/Setting/Setting.conf"), Logger.getInstance());
+    Server server = new Server(new Config("resources/setting/Setting.conf"), Logger.getInstance());
 
     @BeforeEach
     public void bef() {
-        Logger.getInstance().setPATCH("src/main/java/sys/tem/Log/log.log");
+        Logger.getInstance().setPATCH("resources/Log.log");
     }
 
     @Test
@@ -24,7 +24,8 @@ public class ServerTest {
     public void serverMessTest() throws InterruptedException {
         server.started();
         String msg = "hello world";
-        Client client = new Client(new Config("src/main/java/sys/tem/Setting/Setting.conf"));
+        Client client = new Client(new Config("resources/setting/Setting.conf"));
+        client.started();
         Thread.sleep(500);
         client.setMessage(msg);
         Thread.sleep(500);

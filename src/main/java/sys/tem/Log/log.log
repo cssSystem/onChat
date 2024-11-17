@@ -1,9 +1,0 @@
-INFO 2024-11-06 23:30:01 Сервер запущен...
-ServerTEXT 2024-11-06 23:30:07 Сокет Socket[addr=/127.0.0.1,port=50924,localport=9999] подключился
-ServerTEXT 2024-11-06 23:30:11 Сокет Socket[addr=/127.0.0.1,port=50930,localport=9999] подключился
-ServerTEXT 2024-11-06 23:30:18 Сокет Socket[addr=/127.0.0.1,port=50930,localport=9999] присвоено имя: nik1
-ServerTEXT 2024-11-06 23:30:18 К чату подключился пользователь "nik1"
-ServerTEXT 2024-11-06 23:30:23 Сокет Socket[addr=/127.0.0.1,port=50924,localport=9999] присвоено имя: nik2
-ServerTEXT 2024-11-06 23:30:23 К чату подключился пользователь "nik2"
-ClientTEXT 2024-11-06 23:30:26 nik2: hello
-ClientTEXT 2024-11-06 23:30:30 nik1: hello

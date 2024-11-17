@@ -1,13 +1,13 @@
-package sys.tem.Setting;
+package sys.tem.setting;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class ConfigTest {
-    private String Patch = "src/main/java/sys/tem/Setting/Setting.conf";
+    private String patch = "resources/setting/Setting.conf";
 
     @Test
-    void ConfigTest() {
+    void configTest() {
         Assertions.assertThrows(RuntimeException.class, () -> {
             new Config("");
         });
@@ -15,7 +15,7 @@ public class ConfigTest {
 
     @Test
     void getPatch() {
-        Config config = new Config(Patch);
-        Assertions.assertEquals(Patch, config.PATCH);
+        Config config = new Config(patch);
+        Assertions.assertEquals(patch, config.PATCH);
     }
 }

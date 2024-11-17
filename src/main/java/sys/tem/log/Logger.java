@@ -1,4 +1,4 @@
-package sys.tem.Log;
+package sys.tem.log;
 
 import java.io.FileWriter;
 import java.io.IOException;
